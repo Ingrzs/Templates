@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 0.25em;
+}
+.password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.input-toggle {
+  outline-style: none;
+  border: none;
+  flex: 1;
+}
+
+.button-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+
+svg {
+  width: 0.8em;
+}
+
+.hide-icon{
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
